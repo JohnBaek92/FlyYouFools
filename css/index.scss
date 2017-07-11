@@ -5,3 +5,10 @@
   margin-right: auto;
   display: block;
 }
+
+.photo {
+  position: fixed;
+  z-index: -1;
+  padding-left: 4em;
+  width: 80%
+}
