@@ -12,3 +12,26 @@
   padding-left: 4em;
   width: 80%
 }
+
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+.link {
+  padding-left: 2em;
+  color: white;
+  font-family: 'Lemonada', cursive;
+}
+
+.fly-title {
+  display: flex;
+  justify-content: center;
+  font-family: 'Lemonada', cursive;
+  color: white;
+  font-size: 38px;
+}
+
+body {
+  background-color: black;
+}
