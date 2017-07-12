@@ -37,8 +37,9 @@ body {
 }
 
 .instructions {
+  list-style: none;
   color: white;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   font-family: 'Lemonada', cursive;
 }
