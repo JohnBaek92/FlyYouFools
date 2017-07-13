@@ -75,6 +75,13 @@ body {
   margin-right: 4px;
 }
 
+#second-instructions {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Lemonada', cursive;
+}
+
 .modal-content {
     background-color: #fefefe;
     margin: 15% auto;
