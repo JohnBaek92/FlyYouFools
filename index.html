@@ -3,6 +3,21 @@
   <head>
     <meta charset="utf-8">
     <title>Fly You Fools</title>
+    <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDABU5HZWT_iaeZa_tQwMK2Iv0H6qAG_rc",
+    authDomain: "fly-you-fools.firebaseapp.com",
+    databaseURL: "https://fly-you-fools.firebaseio.com",
+    projectId: "fly-you-fools",
+    storageBucket: "fly-you-fools.appspot.com",
+    messagingSenderId: "91827389875"
+  };
+  firebase.initializeApp(config);
+</script>
+    <script>
+</script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="./css/index.css" />
     <link href="https://fonts.googleapis.com/css?family=Lemonada" rel="stylesheet">
@@ -12,13 +27,20 @@
     <div class="fly-title">
       Fly You Fools
     </div>
+    <div id="usernameModal">
+      <div class="modal-content">
+        <div id="enter-username">Enter Username</div>
+        <input id="usernameInput" type="text" name="username" required>
+        <input id="usernameSubmit" type="submit">
+      </div>
+    </div>
     <div>
       <canvas id="game-canvas" height="400" width="1000"></canvas>
     </div>
     <div id="top-instructions">Guide Gimli Past The Mines Of Mordor</div>
     <div class="instructions-container">
       <ul class="instructions">
-        <li>Enter To Play</li>
+        <li>S To Play</li>
         <li>Space Bar To Jump</li>
         <li>R To Restart</li>
         <li>P To Pause</li>
