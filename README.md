@@ -2,6 +2,8 @@
 
 [FlyYouFools Live](http://johnbaek.life/FlyYouFools)
 
+<img src="assets/FlyYouFoolsSplashPage.png" / style="border: 1px solid black" />
+
 # What is FlyYouFools?
 FlyYouFools is a "Lord Of The Rings" inspired platform runner game which was crafted utilizing Canvas, JavaScript, jQuery, HTML, and CSS.
 The game also makes use of Google's Firebase in order to keep track of scores from players all over the world.
