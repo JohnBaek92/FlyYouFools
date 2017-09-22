@@ -47,7 +47,7 @@ update(){
 
 # Gimli walking animation
 
-Gimli is initialized with an array named "spriteIdleAnimation" which contains four objects. Inside each object, there are variables which point to an X coordinate, Y coordinate, pixel width, and pixel height. The information from each object is used to cycle through the images of the project's sprite sheet which leads to a visual of Gimli walking.
+Gimli is initialized with an array called "spriteIdleAnimation" which contains four objects. Inside each object, there are variables which point to an X coordinate, Y coordinate, pixel width, and pixel height. The information from each object is used to cycle through the images of the project's sprite sheet which leads to a visual of Gimli walking.
 
 ```javascript
 this.spriteIdleAnimation = [
